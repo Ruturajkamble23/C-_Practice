@@ -1,0 +1,62 @@
+		
+
+	vector : -------> use internally contiguous memory block like an dynamic array can resize on runtime
+	when default capasity is full then allocate new memoey block of doubble size of old size.
+	( ex ----->   old size is 10 and its full then old block coppied and create new block with old elements in new increased size is 20 )
+	and copy the old elements in new block.
+	then it delete the old block.
+
+	it is mostly used in data accessing because data fastly retrive.
+	vector slow in deletion and insertion at any position .
+	because suppose i want to insert 5 in vector then it shifting whole array elements  
+	Automatically resizes.
+	Has useful methods (push_back(), size(), insert(), erase()).
+
+
+	list : --> 
+	internally use doubly linked list
+	stores each element independently in nodes that are linked together 
+	example - tain ( dabbe ekmekana jodalele astat)
+
+	use pointer to the next node
+
+	use pointer to the previous node 
+	 as like NULL <- [10] <-> [20] <-> [30] -> NULL
+
+	Data is stored in non-contiguous memory.
+	Each element has its own node on the heap.
+	
+	we use list when we want fast insertion/deletion at any position because it change only reference not whole array
+	it is slow in accesing the data because it checks all elements node by node.
+
+ 
+	map : ---->
+	use red- balck tree internally
+	data store in from of key and value pairs
+	data store in sorted order 
+	Data is stored in nodes of a self-balancing BST
+	Keys are unique and automatically sorted
+	duplicate values are allowd
+	when use ----> Inserting/removing in sorted order
+
+	unordered_map : ----->
+	data stores in key and value pairs 
+	Internally uses a hash table (array of buckets)
+	It stores elements in buckets
+	unordered_map use hash table for creating hash code
+	hash code created by using key
+	hashcode is nothing but inerger value
+	bucket = hashcode % current bucket size "which give us bucket index to store value"
+	for example hashcode ----> 14585482564
+	bucket index = 14585482564 % 8 = remider will be bucket index (consider 8  is default size )
+
+
+	hash collison : --->
+	if hashfunction generate same hashcode and try to store in same buckets thats called hash collision
+	c++ handdles with each bucket holds a linked list
+	for example hashcode 1234 and hashcode 1234 same code try to store in same buckets then new bucket created under one bucket as a tree.
+
+	Use auto& when----->
+	You want to avoid copying each element (for performance).
+	You want to modify elements directly.
+	You want cleaner syntax with complex STL types.	

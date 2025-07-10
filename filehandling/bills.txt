@@ -1,0 +1,35 @@
+Customer: rutu
+Item                Qty       Price     Total     
+dolo                25        5.00      125.00    
+condom              5         85.00     425.00    
+Grand Total: ₹550.00
+-------------------------------------------
+Customer: Shripad
+Item                Qty       Price     Total     
+condom              6         125.00    750.00    
+Vigra 100mg         1         35.00     35.00     
+Grand Total: ₹785.00
+-------------------------------------------
+Customer: chandu
+Item                Qty       Price     Total     
+dl                  5         5.00      25.00     
+Grand Total: ₹25.00
+-------------------------------------------
+Customer: chandu raut
+Item                Qty       Price     Total     
+condom durex        5         180.00    900.00    
+aditya shinde       1         1.00      1.00      
+Grand Total: ₹901.00
+-------------------------------------------
+Customer: aditya shine
+Item                Qty       Price     Total     
+vigra 100mg         10        35.50     355.00    
+Grand Total: ₹355.00
+-------------------------------------------
+Customer: chandu
+Item                Qty       Price     Total     
+dolo                2         4.00      8.00      
+durex condom        5         87.50     437.50    
+ecg                 1         7900.00   7900.00   
+Grand Total: ₹8345.50
+-------------------------------------------
